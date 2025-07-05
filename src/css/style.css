@@ -7,21 +7,3 @@
 body{
     height: 100vh;
 }
-.logo{
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-}
-.navbar{
-    background-color: #6592c4;
-    padding: 10px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: linear-gradient(90deg);
-}
-.nav-links{
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
