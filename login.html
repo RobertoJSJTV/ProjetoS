@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="src/css/navbar.css">
+    <link rel="stylesheet" href="src/css/login.css">
+    <link rel="stylesheet" href="src/">
     <title>Login</title>
 </head>
 <body>
@@ -22,6 +25,20 @@
             <li><a href="estoque.html">Estoques</a></li>
         </ul>
     </div>
+
+    <div class="conteudo-container">
+        <div class="login-conteudo">
+            <h1>Faça Login</h1>
+            <form action="">
+                <input type="email" name="email" id="email" class="email" placeholder="Digite seu email">
+                <input type="password" name="senha" id="senha" class="senha" placeholder="Digite sua senha">
+                <input type="submit" name="enviar" value="Logar" class="submit" onclick="fazerLogin()">
+            </form>
+            <p>Não tem cadastro? <a href="">Cadastre-se</a></p>
+        </div>
+    </div>
+
+
     <script>
         function toggleMenu() {
             const navLinks = document.querySelector('.nav-links');
